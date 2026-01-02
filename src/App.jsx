@@ -88,7 +88,7 @@ align-items: center;`
         </span>
 
         <a
-          href="https://github.com/TU_USUARIO/css2tailwind"
+          href="https://github.com/alealonso17/CSS2TW"
           target="_blank"
           rel="noopener noreferrer"
           className="ml-2 inline-flex items-center gap-1 rounded-md border border-gray-700/60 bg-gray-800/40 px-3 py-1 text-xs text-gray-300 transition
