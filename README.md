@@ -1,17 +1,73 @@
-# React + Vite
+# CSS2TW 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CSS2TW** is a lightweight, developer-friendly tool that converts traditional CSS properties into Tailwind CSS utility classes.
 
-Currently, two official plugins are available:
+It’s designed not only to speed up migrations, but also to **help developers learn Tailwind through real-time autocomplete and instant feedback**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- 🔁 **CSS → Tailwind conversion**  
+  Paste CSS properties and get the equivalent Tailwind utility classes.
 
-## Expanding the ESLint configuration
+- ⚡ **Smart autocomplete (learning-focused)**  
+  As you type CSS, the editor suggests valid properties and values that map directly to Tailwind classes — perfect for learning Tailwind while you work.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# CSS2TW
+- 🧠 **Learn by typing**  
+  See how each CSS rule translates into Tailwind utilities in real time.
+
+- 🎯 **Clean output**  
+  Only valid Tailwind classes are returned. No noise.
+
+- 🧩 **Built with Monaco Editor**  
+  IDE-like experience directly in the browser.
+
+---
+
+## 🖼️ Preview
+
+### CSS Input → Tailwind Output
+![CSS2TW Screenshot](public/screenshot.png)
+
+### Autocomplete & Learning Experience
+![CSS2TW Autocomplete](public/screenshot2.png)
+
+---
+
+## 🧠 Why CSS2TW?
+
+Tailwind is powerful, but the learning curve can be steep.
+
+**CSS2TW bridges the gap** by letting you:
+- Write familiar CSS
+- Instantly see the Tailwind equivalent
+- Learn utilities naturally through autocomplete
+
+It’s especially useful for:
+- Developers new to Tailwind
+- Migrating legacy CSS codebases
+- Understanding how Tailwind utilities map to CSS concepts
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **Monaco Editor**
+- **Lucide Icons**
+
+---
+
+## ⭐ Show some support
+
+If this project helped you learn Tailwind or saved you time,  
+feel free to **give the repo a star ⭐** — it really helps!
+
+---
+
+## 📄 License
+
+MIT — free to use, modify, and share.
